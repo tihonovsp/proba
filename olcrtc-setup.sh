@@ -2,11 +2,17 @@
 # olcRTC Installer v1.0.0 — install-only, no management menu.
 # Installs olcrtc + olcrtc-admin binaries, systemd units, generates keys/env.
 # Re-run without flags shows status and Admin UI URL.
+#
+# Usage:
+#   curl -fsSL .../olcrtc-setup.sh | sudo bash
+#   sudo bash olcrtc-setup.sh --update
+#   sudo bash olcrtc-setup.sh --uninstall
+#   sudo bash olcrtc-setup.sh --show-token
 
 set -euo pipefail
 
 INSTALLER_VERSION="1.9.73"
-CARRIER_DEFAULT="telemost"
+CARRIER_DEFAULT="jitsi"
 TRANSPORT_DEFAULT="vp8channel"
 DNS_DEFAULT="8.8.8.8:53"
 
