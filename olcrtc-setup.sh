@@ -8,7 +8,7 @@
 #   sudo bash olcrtc-setup.sh --update
 #   sudo bash olcrtc-setup.sh --uninstall
 #   sudo bash olcrtc-setup.sh --show-token
-
+#
 set -euo pipefail
 
 INSTALLER_VERSION="1.9.73"
