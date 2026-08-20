@@ -12,7 +12,7 @@
 set -euo pipefail
 
 INSTALLER_VERSION="1.9.73"
-CARRIER_DEFAULT="jitsi"
+CARRIER_DEFAULT="telemost"
 TRANSPORT_DEFAULT="vp8channel"
 DNS_DEFAULT="8.8.8.8:53"
 
